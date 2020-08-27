@@ -11,7 +11,7 @@ function App() {
       <header className="App-header">
         <Router>
           <div>
-            <Route name="Movie" path="/movie" component={Movie} />
+            <Route name="Movie" path="/movie/:movieID" component={Movie} />
             <Route name="Actor" path="/actor" component={Actor} />
           </div>
         </Router>
